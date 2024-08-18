@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic DOM: Selecting Elements</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page">
+    <div class="profile">
+      <img
+        src="./images/avatar.jpeg"
+        alt="Placeholder avatar"
+        class="profile__avatar"
+      />
+    </div>
+
+    <ul class="todos">
+      <li class="todo">
+        <input class="todo__checkbox" type="checkbox" />
+        <span class="text-span">Walk dog</span>
+      </li>
+      <li class="todo">
+        <input class="todo__checkbox" type="checkbox" />
+        <span class="text-span">Wash dishes </span>
+      </li>
+      <li class="todo">
+        <input class="todo__checkbox" type="checkbox" />
+        <span class="text-span"> Learn JS </span>
+      </li>
+      <li></li>
+    </ul>
+    <button class="button button_action_new-todo">Add new todo</button>
+    <button class="button button_action_clear-todos">Clear todos</button>
+    <script src="script.js"></script>
+  </body>
+</html>
